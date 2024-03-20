@@ -12,13 +12,44 @@
         <!-- HTML5 tiene diferentes elementos que ayudan a diferenciar diferentes tipos de contenido.
             Estos elementos hacen tu código HTML más fácil de leer y ayudan con el Posicionamiento en buscadores (Search Engine Optimization - SEO) y accesibilidad. -->
     <h1>CatPhotoApp</h1>
-    <!-- Los elementos de encabezado h1 a h6 se utilizan para indicar la importancia del contenido por debajo de ellos. Entre menor sea el número, el contenido será más importante, por lo tanto, el elemento h2 es menos importante que el elemento h1.
+    <section>
+    <!--Antes de añadir nuevo contenido, deberías utilizar un elemento section, para separar el contenido de cat photos, del contenido que añadiremos después.  -->
+    <!-- Los elementos de encabezado h1 a h6 se utilizan para indicar la importancia del contenido por debajo de ellos. Entre menor sea el número, el contenido será más importante,
+        por lo tanto, el elemento h2 es menos importante que el elemento h1.
         Solo utiliza un elemento h1 por página y coloca encabezados de menor importancia debajo de encabezados de mayor importacion. -->
-    <h2>Cat Photos</h2>
-    <img src="" alt="">
-    <!-- Puedes añadir imágenes a tu sitio web utilizando el elemento img. Los elementos img tienen una etiqueta de apertura sin una etiqueta de cierre.
-        La etiqueta de un elemento que no necesita etiqueta de cierre se conoce como etiqueta de autocierre (self-closing tag). -->
+        <h2>Cat Photos</h2>
+            <p>see more <a href="https://google.com" target="_blank"></a>cat photos</a> in our gallery</p>
+                <!-- Puedes hacer un enlace que te llevará a otra página con el elemento anchor (<a href="https.zzz"></a>) 
+                Añade un atributo target con el valor _blank en la etiqueta de apertura, 
+                del elemento anchor (a) para que el enlace abra en una nueva pestaña.-->
+            <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back.">
+            <!-- Puedes añadir imágenes a tu sitio web utilizando el elemento img. Los elementos img tienen una etiqueta de apertura sin una etiqueta de cierre.
+    La etiqueta de un elemento que no necesita etiqueta de cierre se conoce como etiqueta de autocierre (self-closing tag). 
+    Los atributos HTML son palabras especiales usadas dentro de la etiqueta de apertura de un elemento para controlar el comportamiento del elemento.
+    El atributo src en un elemento img especifica la URL (donde se localiza la imagen)
+    Todos los elementos img deben tener un atributo alt. El texto del atributo alt es utilizado por 
+    lectores de pantalla para mejora la accesibilidad y es mostrado en caso de que la imagen falle en 
+    cargar. Por ejemplo, <img src="cat.jpg" alt="A cat"> tiene un atributo alt con el texto A cat.-->
+    </section>
+    <section>
+        <h2>Cat Lists</h2>
+        <h3>Things cats love:</h3>
+        <!-- lista desordenada UL -->
+        <ul>
+            <!-- "li" para agregar elementos a una lista -->
+            <li>cat nip</li>
+            <li>laser pointers</li>
+            <li>lasagna</li>
+        </ul>
+        <figure>
+            <!-- El elemento figure representa contenido independiente y te permitirá asociar una imagen a una descripción.-->
+        <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+        <figcaption>Cats love lasagna</figcaption>
+        <!-- el elemento (figcaption), se utiliza para añadir una descripción o leyenda para describir una imagen anidada en un elemento figure.
+        Enfatiza la palabra love en el elemento figcaption envolviendola en un elemento énfasis em-->
+    </figure>
+    <h3>Top 3 things cats hate:</h3>
+</section>
     </main>
-    <h1>nacho</h1>
 </body>
 </html>

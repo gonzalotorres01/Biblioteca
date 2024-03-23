@@ -49,6 +49,53 @@
         Enfatiza la palabra love en el elemento figcaption envolviendola en un elemento énfasis em-->
     </figure>
     <h3>Top 3 things cats hate:</h3>
+    <ol>
+        <li>flea treatment</li>
+        <li>thunder</li>
+        <li>other cats</li>
+    </ol>
+    <!-- El código de una lista ordenada, ordered list (ol), es similar al de una lista no ordenada, unordered list (ul),
+        pero los elemento de una lista ordenada aparecen enumerados. -->
+        <figure><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
+        <figcaption>Cats <strong>hate</strong>  other cats.</figcaption>
+        <!-- El elemento strong se utiliza para indicar que una parte de un texto es importante o urgente. -->
+        </figure>
+</section>
+<section>
+    <h2>Cat Form</h2>
+    <form action="https://freecatphotoapp.com/submit-cat-photo">
+        <label for="">
+            <input type="radio" value="" id="indoor" name="indoor-outdoor">Indoor
+        </label>
+
+        <label for=""><input type="radio" value="" id="outdoor" name="indoor-outdoor">Outdoor
+        </label>
+    <!-- Los elementos label se utilizan para ayudar a asociar el texto a un elemento input con el propio elemento input (especialmente para las tecnologías de asistencia como los lectores de pantalla) -->
+    <!-- Puedes usar botones de radio (radio button) para preguntas en las que quieres que el usuario solo te dé una respuesta a partir de múltiples opciones.
+    El atributo id se utiliza para identificar elementos HTML específicos. Cada atributo id debe tener un valor único, diferente a los demás valores id de la página.
+uedes observar que ambos elementos radio button pueden ser seleccionados al mismo tiempo.
+Para hacer que al seleccionar un radio button, el otro sé deseleccione automáticamente, 
+ambos botones deben tener un atributo name con el mismo valor-->
+        <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+        <!-- El elemento input te permite recolectar datos desde un formulario web de diferentes formas.
+            Al igual que los elementos img, los elementos input son de auto-cierre y no necesitan etiquetas de cierre.
+        ay diferentes tipos de elementos input, los cuales los puedes crear con el atributo type. Puedes 
+        crear fácilmente un campo de contraseña (password), un botón de reinicio (reset)
+        o un control para permitir a los usuarios seleccionar un archivo desde su computadora. 
+    ara que los datos de un formulario puedan acceder al destino especificado en el atributo action,
+    debes darle al campo de texto un atributo name y darle un valor que represente a los datos que están siendo enviados
+Un texto provisional (placeholder) nos da una idea de que tipo de información debemos escribir en un elemento input
+ara evitar que un usuario entregue su formulario incompleto, necesitas añadir el atributo required al elemento input. El atributo required no necesita ningún valor. Simplemente necesitas añadir la palabra required al elemento input,
+asegurándote de que hay espacios entre ella y los otros atributos-->
+<button type="submit">Submit</button>
+<!--  El comportamiento predeterminado de un botón sin atributos en un formulario es enviar la información
+    a la ubicación especificada en el atributo action del formulario ..
+    aparecen juntos en la página. Esto se debe a que los elementos input y button son elementos inline,
+    los cuales no aparecen en una nueva línea.
+-->
+    </form>
+    <!-- El atributo action indica, dónde deben enviarse los datos del formulario 
+    El atributo action indica, dónde deben enviarse los datos del formulario-->
 </section>
     </main>
 </body>

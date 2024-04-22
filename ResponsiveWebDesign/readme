@@ -1,3 +1,4 @@
+Etapa1:
 Proyecto nº 1
 Las etiquetas HTML dan a la página su estructura. Puedes usar etiquetas HTML para añadir fotos, botones, y otros elementos en tu página.
 En este curso, aprenderás las etiquetas HTML más comunes por medio de la construcción de tu propia aplicación para fotos de gatos.
@@ -15,5 +16,14 @@ Puedes hacer uso de formularios HTML para recopilar información de las personas
 En este curso, aprenderás formularios de HTML construyendo una página de registro. Aprenderás cómo controlar qué tipo de datos pueden colocarse en tu formulario,
 y herramientas nuevas de CSS para cambiar el diseño de tu página.
 
-Proyecto Final con Certificado
+Proyecto nº5 Final con Certificado
 El ultimo proyecto tomo en cuenta todo lo aprendido para hcer un formulario solo por mi cuenta y desmostrarme los conocimiento que llevo hasta el momento 
+
+Etapa 2:
+Proyecto nº6
+Cada elemento HTML es su propia caja – con su propio espaciado y borde. A esto se le llama Modelo de Caja.
+En este curso, utilizarás CSS y el Modelo de Cajas para crear tus propias piezas de arte rectangulares al estilo de Rothko.
+
+Proyecto nº7
+Flexbox te ayuda a diseñar tu página web para que se vea bien en cualquier tamaño de pantalla.
+En este curso, usarás Flexbox para crear una página web de una galería de fotos adaptativa.

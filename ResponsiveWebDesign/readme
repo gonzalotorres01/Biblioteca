@@ -1,29 +1,40 @@
 Etapa1:
-Proyecto nº 1
+Proyecto nº 00
 Las etiquetas HTML dan a la página su estructura. Puedes usar etiquetas HTML para añadir fotos, botones, y otros elementos en tu página.
 En este curso, aprenderás las etiquetas HTML más comunes por medio de la construcción de tu propia aplicación para fotos de gatos.
 
-Proyecto nº 2
+Proyecto nº 01
 CSS le dice al navegador cómo presentar tu página web. Puedes usar CSS para definir el color, fuente, tamaño, y otros aspectos de los elementos HTML.
 En este curso, aprenderás CSS diseñando una página para el menú de la página web de un café.
 
-Proyecto nº 3 
+Proyecto nº 02 
 Seleccionar los colores correctos para tu página web puede mejorar enormemente el atractivo estético para tus lectores.
 En este curso, construirás un conjunto de marcadores de color. Aprenderás diferentes maneras de establecer valores de color y cómo combinar colores entre sí.
 
-Proyecto nº 4
+Proyecto nº 03
 Puedes hacer uso de formularios HTML para recopilar información de las personas que visitan tu página web.
 En este curso, aprenderás formularios de HTML construyendo una página de registro. Aprenderás cómo controlar qué tipo de datos pueden colocarse en tu formulario,
 y herramientas nuevas de CSS para cambiar el diseño de tu página.
 
-Proyecto nº5 Final con Certificado
+Proyecto nºxx Final con Certificado
 El ultimo proyecto tomo en cuenta todo lo aprendido para hcer un formulario solo por mi cuenta y desmostrarme los conocimiento que llevo hasta el momento 
 
 Etapa 2:
-Proyecto nº6
+
+Proyecto nº 04
 Cada elemento HTML es su propia caja – con su propio espaciado y borde. A esto se le llama Modelo de Caja.
 En este curso, utilizarás CSS y el Modelo de Cajas para crear tus propias piezas de arte rectangulares al estilo de Rothko.
 
-Proyecto nº7
+Proyecto nº 05
 Flexbox te ayuda a diseñar tu página web para que se vea bien en cualquier tamaño de pantalla.
 En este curso, usarás Flexbox para crear una página web de una galería de fotos adaptativa.
+
+Proyecto nº 06
+La tipografía es el arte de diseñar tu texto haciéndolo de fácil lectura y adaptado a su propósito.
+En este curso, usarás tipografía para compilar una página web de etiqueta.
+Aprenderás cómo estilizar el texto, ajustar altura de línea y la posición de tu texto usando CSS.
+
+Proyecto nº07
+Accesibilidad es hacer que tu página web sea sencilla de usar para todas las personas, incluyendo a aquellas con discapacidades.
+En este curso, construirás una página web de cuestionarios.
+Aprenderás herramientas de accesibilidad como atajos de teclado, atributos ARIA y mejores prácticas de diseño.
